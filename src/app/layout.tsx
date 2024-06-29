@@ -13,7 +13,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        <div id="header">
+          The site for all things <span id="name">Mark!</span>
+        </div>
+        {/* TODO navbar goes here */}
+        <main className="main">{children}</main>
+      </body>
     </html>
   );
 }
