@@ -1,13 +1,14 @@
 #content {
   display: flex;
   flex-direction: row-reverse;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   justify-content: space-between;
 }
 
 #text {
   flex-grow: 1;
   margin-right: 15px;
+  max-width: calc(80vw - 13em);
 }
 
 #photoFrame {
@@ -15,6 +16,7 @@
   font-size: 1.25em;
   background: lightgray;
   padding: 20px;
+  height: max-content;
 }
 
 #photoFrame img {
@@ -48,4 +50,19 @@
     margin-bottom: 0px;
     margin-right: 20px;
   }
+#content {
+  flex-wrap: wrap;
+}
+}
+
+#collage {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+#collage img {
+  max-height: 12em;
+  width: auto;
+  padding: 3px 0;
 }
