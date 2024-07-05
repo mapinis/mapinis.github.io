@@ -3,6 +3,7 @@
   flex-direction: row-reverse;
   flex-wrap: nowrap;
   justify-content: space-between;
+  margin-top: 1rem;
 }
 
 #text {
@@ -19,6 +20,9 @@
   height: max-content;
 }
 
+#photoFrame p {
+  margin-bottom: 4px;
+}
 #photoFrame img {
   display: block;
   width: 100%;
@@ -31,7 +35,7 @@
   #text {
     min-width: 80vw;
     margin-right: 0px;
-    margin-top: 10px;
+    margin-top: calc(1rem + 10px);
   }
 
   #photoFrame {
@@ -65,4 +69,20 @@
   max-height: 12em;
   width: auto;
   padding: 3px 0;
+}
+#bulletLists {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.bullets {
+  flex-grow: 1;
+  max-width: 22em;
+  margin-bottom: 15px;
+}
+
+.bullets ul {
+  margin-left: 30px;
 }

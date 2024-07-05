@@ -1,15 +1,15 @@
 :root {
   --max-width: 1100px;
   --border-radius: 12px;
-  
+
   --foreground: #28153d;
-    --background: #f0f0f0;
+  --background: #f0f0f0;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground: #f0f0f0;
-      --background: #292929;
+    --background: #292929;
   }
 }
 
@@ -27,11 +27,27 @@ html {
 body {
   overflow-x: hidden;
   color: var(--foreground);
-    background: var(--background);
+  background: var(--background);
     min-height: 100vh;
     width: 80vw;
-      max-width: 1000px;
+    max-width: 1000px;
     margin: 4rem auto;
+  line-height: 22px;
+    font-size: 1.1em;
+  }
+  
+  body p {
+    margin-bottom: 1em;
+  }
+  
+  body h2 {
+    margin-top: 2px;
+    margin-bottom: 15px;
+  }
+  
+  body h3 {
+    margin-top: 1px;
+    margin-bottom: 6px;
 }
 
 a {
@@ -42,6 +58,7 @@ a {
 a:hover {
   text-decoration: underline
 }
+
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
@@ -50,6 +67,7 @@ a:hover {
 
 #header {
   font-size: 2.5em;
+  line-height: initial;
 }
 
 #name {
@@ -58,5 +76,5 @@ a:hover {
 }
 
 .main {
-  margin-top: 2rem
+  margin-top: 1rem
 }
