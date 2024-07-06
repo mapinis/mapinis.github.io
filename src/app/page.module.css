@@ -15,23 +15,38 @@
 #photoFrame {
   width: 13em;
   font-size: 1.25em;
-  background: lightgray;
+  background: #E0E0E0;
   padding: 20px;
   height: max-content;
+  border-radius: 3px;
+}
+
+@media (prefers-color-scheme: dark) {
+  #photoFrame {
+    background: #3B3B3B
+  }
 }
 
 #photoFrame p {
   margin-bottom: 4px;
 }
+
 #photoFrame img {
   display: block;
   width: 100%;
   min-width: 100px;
   height: auto;
   margin-bottom: 20px;
+  border-radius: 2px;
 }
 
-@media (max-width: 60em) {
+#socials {
+  display: inline-block;
+  margin-top: 2px;
+  font-size: 0.9em;
+}
+
+@media only screen and (max-width: 850px) {
   #text {
     min-width: 80vw;
     margin-right: 0px;
@@ -54,9 +69,10 @@
     margin-bottom: 0px;
     margin-right: 20px;
   }
-#content {
-  flex-wrap: wrap;
-}
+
+  #content {
+    flex-wrap: wrap;
+  }
 }
 
 #collage {
@@ -70,6 +86,7 @@
   width: auto;
   padding: 3px 0;
 }
+
 #bulletLists {
   display: flex;
   flex-direction: row;
