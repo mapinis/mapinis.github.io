@@ -16,9 +16,9 @@ export default function Page() {
         </div>
         <div id={styles.text}>
           <h2>About Me</h2>
-          <p>Hi! I&apos;m Mark Apinis, and welcome! I&apos;m a recent graduate of Northeastern University, with both my B.S. in computer science and biology and my M.S. in bioinformatics as part of the PlusOne program.</p>
-          <p>I am passionate about everything involving software, data, programming, genetics, and fighting disease, and especially the intersection of it all with computational science and bioinformatics. Previously, I&apos;ve worked at Intuit, Novartis, Moderna, and my college as a TA.</p>
-          <p>In my spare time, I like to lift, do anything outside (especially backpacking), take photos, and explore. I&apos;m a huge advocate for walkable and transit-oriented development, and I love to bike or take the train to do everything from visiting somewhere new to just running errands.</p>
+          <p>Hi! I&apos;m Mark Apinis, and welcome! I&apos;m a recent graduate of Northeastern University with both my B.S. in computer science and biology (2023) and M.S. in bioinformatics (2024).</p>
+          <p>I am passionate about everything involving software, data, programming, genetics, and fighting disease, and especially the intersection of it all with computational science and bioinformatics. Previously, I&apos;ve worked at Intuit, Novartis, Moderna, and my college as a TA for computer science courses.</p>
+          <p>In my spare time, I like to lift, do anything outside (especially hiking and camping), play tennis, take photos, and explore. I&apos;m a huge advocate for walkable and transit-oriented development, and I love to bike or take the train to do everything from traveling to running errands.</p>
           <div id={styles.bulletLists}>
             <div className={styles.bullets}>
               <h3>Some Things I&apos;m Good At</h3>
@@ -26,7 +26,7 @@ export default function Page() {
                 <li>Programming efficiently and smartly in all sorts of languages</li>
                 <li>Modern software development stacks</li>
                 <li>Math and statistics</li>
-                <li>Quickly learning and then applying</li>
+                <li>Learning quickly</li>
                 <li>Breaking complex topics down into teachable chunks</li>
                 <li>Understanding genetics and cellular processes</li>
                 <li>Cooking</li>
@@ -38,7 +38,7 @@ export default function Page() {
                 <li>Everything I&apos;m good at, plus</li>
                 <li>Servers and networking</li>
                 <li>Machine learning and AI, especially for biological modeling</li>
-                <li>Wider and deeper biology (never ends)</li>
+                <li>Wider and deeper biology</li>
                 <li>Recreational reading</li>
                 <li>Disc golf</li>
                 <li>Photography</li>
