@@ -15,7 +15,7 @@
 #photoFrame {
   width: 13em;
   font-size: 1.25em;
-  background: #E0E0E0;
+  background: #e0e0e0;
   padding: 20px;
   height: max-content;
   border-radius: 3px;
@@ -23,7 +23,7 @@
 
 @media (prefers-color-scheme: dark) {
   #photoFrame {
-    background: #3B3B3B
+    background: #3b3b3b
   }
 }
 
