@@ -1,0 +1,13 @@
+.resumeContainer {
+  width: 100%;
+}
+
+.document {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.page {
+  width: 100% !important;
+  height: 100% !important;
+}
