@@ -79,6 +79,17 @@ a:hover {
   text-align: center;
 }
 
+@media only screen and (orientation: portrait) {
+  #header {
+    font-size: 2.0em;
+    margin-bottom: 10pt;
+  }
+
+  body {
+    margin: 2.5rem auto;
+  }
+}
+
 #name {
   font-size: 1.4em;
   font-weight: bold;
