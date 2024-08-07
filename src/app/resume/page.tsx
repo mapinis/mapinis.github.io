@@ -1,6 +1,6 @@
 import styles from "./page.module.css";
 
-export default function ResumePage() {
+export default function Page() {
 
   return (
     <div id={styles.resume}>
