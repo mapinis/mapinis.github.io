@@ -28,3 +28,10 @@
   font-style: italic;
   color: gray;
 }
+
+#finalMessage {
+  max-width: fit-content;
+  margin: 1.5rem auto 0 auto;
+  font-size: 1.3em;
+  font-style: italic;
+}

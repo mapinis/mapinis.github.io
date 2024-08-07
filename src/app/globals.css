@@ -31,7 +31,7 @@ body {
   min-height: 100vh;
   width: 80vw;
   max-width: 1000px;
-  margin: 4rem auto;
+  margin: 2.5rem auto;
   line-height: 22px;
   font-size: 1.1em;
 }
@@ -74,7 +74,7 @@ a:hover {
 #header {
   font-size: 2.5em;
   line-height: initial;
-  margin: auto;
+  margin: 0 auto 10px auto;
   max-width: fit-content;
   text-align: center;
 }
@@ -82,11 +82,10 @@ a:hover {
 @media only screen and (orientation: portrait) {
   #header {
     font-size: 2.0em;
-    margin-bottom: 10pt;
   }
 
   body {
-    margin: 2.5rem auto;
+    margin: 2rem auto;
   }
 }
 
