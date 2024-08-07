@@ -23,7 +23,7 @@ export default function RootLayout({
     },
     {
       name: "projects",
-      route: "projects"
+      route: "/projects"
     }
   ]
 
