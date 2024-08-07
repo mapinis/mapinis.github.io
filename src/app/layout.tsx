@@ -11,13 +11,35 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+
+  const navItems = [
+    {
+      name: "home",
+      route: "/",
+    },
+    {
+      name: "resumé",
+      route: "/resume",
+    },
+    {
+      name: "projects",
+      route: "projects"
+    }
+  ]
+
   return (
     <html lang="en">
       <body>
         <div id="header">
           The site for all things <span id="name">Mark!</span>
         </div>
-        {/* TODO navbar goes here */}
+        <div id="navContainer">
+          <div id="nav">
+            {navItems.map((({name, route}) => (
+              <a className="navItem" key={route} href={route}>{name}</a>
+            )))}
+          </div>
+        </div>
         <main className="main">{children}</main>
       </body>
     </html>

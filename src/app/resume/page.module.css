@@ -1,0 +1,13 @@
+#resume {
+  position: relative;
+  width: 100%;
+  padding-top: calc(100% * (11 / 8.5));
+}
+
+#resume object {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: calc(100% + 100);
+}

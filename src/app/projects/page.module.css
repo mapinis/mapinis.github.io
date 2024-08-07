@@ -1,0 +1,37 @@
+#content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+
+.project {
+  display: block;
+  max-width: calc(50% - 30px);
+  flex-grow: 1;
+  margin-bottom: 1rem;
+}
+
+@media only screen and (max-width: 950px) {
+  .project {
+    min-width: 100%;
+  }
+}
+
+.title {
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.tools {
+  font-style: italic;
+  color: gray;
+}
+
+#finalMessage {
+  max-width: fit-content;
+  margin: 1.5rem auto 0 auto;
+  font-size: 1.3em;
+  font-style: italic;
+}
