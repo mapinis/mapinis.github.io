@@ -11,7 +11,7 @@ export default function Page() {
       icon: <FiExternalLink size={22} />,
       desc: "This very website, open source and hosted on GitHub Pages. See repository for not just source but also actions-based linting, building, and deployment.",
       tools: [
-        "Next.js", "React", "Node.js", "TypeScript", "GitHub Actions and Branching", "CloudFlare DNS"
+        "Next.js", "React", "Node.js", "TypeScript", "GitHub Actions and Branching", "Cloudflare DNS"
       ],
     },
     {
