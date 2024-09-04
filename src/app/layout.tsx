@@ -30,6 +30,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
+        <script type="text/javascript" src="/randomizeNameStyle.js" async />
         <div id="header">
           The site for all things <span id="name">Mark!</span>
         </div>
