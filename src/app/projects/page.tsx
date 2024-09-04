@@ -22,6 +22,15 @@ export default function Page() {
       tools: [
         "R", "RMarkdown", "Python 3", "Naive Bayes", "Logistic Regression", "Artificial Neural Networks"
       ]
+    },
+    {
+      title: "bratify",
+      url: "https://github.com/mapinis/bratify",
+      icon: <FiExternalLink size={22} />,
+      desc: "iMessage extension to generate fake \"brat\" album covers with any text and easily share it, allowing for a conversation using brat album covers. Features a dynamic preview and \"saves\" generated image to message input for immediate sharing. See linked repository for demonstration.",
+      tools: [
+        "Swift", "Messages framework", "UIKit", "Xcode"
+      ]
     }
   ]
 
