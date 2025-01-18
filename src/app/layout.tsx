@@ -18,7 +18,7 @@ export default function RootLayout({
       route: "/",
     },
     {
-      name: "resumé",
+      name: "résumé",
       route: "/resume",
     },
     {
