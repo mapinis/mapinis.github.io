@@ -8,6 +8,21 @@ const ATT_LINK_ICON = <ImAttachment size={20} />;
 
 const PROJECTS = [
   {
+    title: "Professor: Learn Anything",
+    url: "https://apinis.org/professor/",
+    icon: EXT_LINK_ICON,
+    desc: "Your on-demand agentic tutor. With Professor, you can build custom college-level courses, with detailed syllabi, informative lessons, and challenging assignments. The agent is accessible at any time to grade your work, provide feedback, or answer questions. Contact me to try it out!",
+    tools: [
+      "Python 3 (Flask, Google Agent Development Kit, pytest)",
+      "Next.js",
+      "React",
+      "Typescript",
+      "Google Cloud (OAuth, GCS, Firebase, Cloud Run)",
+      "Gemini",
+      "GitHub Actions CI/CD"
+    ]
+  },
+  {
     title: "apinis.org",
     url: "https://github.com/mapinis/mapinis.github.io",
     icon: EXT_LINK_ICON,
